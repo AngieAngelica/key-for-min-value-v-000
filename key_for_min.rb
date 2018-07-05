@@ -6,6 +6,7 @@ hash = {:blake => 500, :ashley => 2, :adam => 1}
 
 def key_for_min_value(hash)
   number = nil
+  name = nil
   hash.each do |key,value|
     if value == 1
       number = key
