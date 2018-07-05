@@ -9,13 +9,13 @@ def key_for_min_value(hash)
   name = nil
   hash.each do |key,value|
     if value == fixnum
-      number = key
+      name = key
     end
     if hash.length == 0 
       return nil
     end
   end
-  number
+  name
 end
 
 key_for_min_value(hash)
