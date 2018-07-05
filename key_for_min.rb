@@ -5,7 +5,7 @@ def key_for_min_value(hash)
   number = nil
   name = nil
   hash.each do |key,value|
-    if value <11 || value >0
+    if value < 11 || value > 0
       name = key
     end
     if hash.length == 0 
