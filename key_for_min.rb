@@ -8,7 +8,7 @@ def key_for_min_value(hash)
   number = nil
   name = nil
   hash.each do |key,value|
-    if value == 1
+    if value == fixnum
       number = key
     end
     if hash.length == 0 
